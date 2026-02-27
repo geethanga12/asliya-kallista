@@ -1,12 +1,5 @@
-import React from 'react'
-import Homepage from './pages/homepage'
+import Homepage from "./pages/homepage"
 
-const App = () => {
-  return (
-    <div>
-      <Homepage />
-    </div>
-  )
+export default function App() {
+  return <Homepage />
 }
-
-export default App
