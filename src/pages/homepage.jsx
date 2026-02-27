@@ -1093,7 +1093,7 @@ const galleryItems = [
   { emoji: "👨‍🍳", label: "Open Kitchen", bg: "linear-gradient(135deg, #0A0A0A 0%, #1A1A1A 100%)", caption: "Watch the magic happen" },
 ];
 
-export default function AsliyaKallista() {
+export default function Homepage() {
   const [scrolled, setScrolled] = useState(false);
   const [activeTab, setActiveTab] = useState("pizzas");
   const [showModal, setShowModal] = useState(false);

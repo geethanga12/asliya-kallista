@@ -1,10 +1,10 @@
 import React from 'react'
-import AsliyaKallista from './asliya-kallista'
+import Homepage from './pages/homepage'
 
 const App = () => {
   return (
     <div>
-      <AsliyaKallista />
+      <Homepage />
     </div>
   )
 }
