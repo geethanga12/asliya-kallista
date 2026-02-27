@@ -90,7 +90,7 @@ function MenuCard({ item, featured, index }) {
           padding:9px 22px;background:var(--gold);border:none;color:#080603;
           font-family:var(--font-body);font-size:10px;letter-spacing:.22em;
           text-transform:uppercase;font-weight:600;cursor:none;
-          transform:translateY(${true?'0':'8px'});transition:transform .3s .06s;
+          transform:translateY(${hov?'0':'8px'});transition:transform .3s .06s;
         }
 
         .mc-badge{
